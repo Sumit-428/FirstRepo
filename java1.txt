@@ -1,0 +1,34 @@
+package solution;
+
+public class BankingSystem {
+	void transaction(String str) throws UnsupportedTransactionException {
+		switch(str) {
+			
+		case "credit":
+			break;
+		case "debit":
+			break;
+		case "balanceEnquiry":
+			break;
+		case "pinChange":
+			break;
+		default:
+			throw new UnsupportedTransactionException();
+		}
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		BankingSystem transaction = new BankingSystem();
+		try {
+			transaction.transaction("error");
+		} catch (UnsupportedTransactionException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
+	}
+
+}
