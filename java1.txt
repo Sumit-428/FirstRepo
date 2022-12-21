@@ -1,4 +1,4 @@
-package solution;
+
 
 public class BankingSystem {
 	void transaction(String str) throws UnsupportedTransactionException {
